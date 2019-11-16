@@ -12,16 +12,22 @@
   "author": "zahidin",
   "license": "ISC",
   "dependencies": {
+    "@types/bcrypt": "^3.0.0",
     "@types/bluebird": "^3.5.29",
     "@types/compression": "^1.0.1",
     "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.2",
     "@types/node": "^12.12.8",
     "@types/validator": "^10.11.3",
+    "bcrypt": "^3.0.6",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mysql2": "^2.0.0",
     "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1",
     "tsc-watch": "^4.0.0",
     "typescript": "^3.7.2"
   }

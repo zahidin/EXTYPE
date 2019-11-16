@@ -2,8 +2,8 @@ import controller from "./controller";
 
 export default [
   {
-    path: "/",
-    method: "get",
+    path: "/user/:email",
+    method: "GET",
     handler: controller
   }
 ];
