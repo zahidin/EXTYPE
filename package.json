@@ -4,7 +4,7 @@
   "description": "Rest api express typescript",
   "main": "dist/server.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "npx pm2 start pm2.yaml",
     "dev": "tsc-watch --onSuccess \"node ./dist/server.js\"",
     "build": "tsc -p"
   },
@@ -30,6 +30,7 @@
     "morgan": "^1.9.1",
     "mysql2": "^2.0.0",
     "path": "^0.12.7",
+    "pm2": "^4.1.2",
     "sequelize": "^5.21.2",
     "sequelize-cli": "^5.5.1",
     "tsc-watch": "^4.0.0",
