@@ -1,5 +1,5 @@
 import { Router, Request, Response, NextFunction } from "express";
-
+import { prefixApiV1 } from "../config/prefix-url";
 type Handler = (
   req: Request,
   res: Response,
@@ -14,7 +14,7 @@ type Route = {
 
 export const applyRoutes = (routes: Route[], router: Router) => {
   for (const route of routes) {
-    const { method, path, handler } = route;
-    (router as any)[method.toLowerCase()](path, handler);
+    let { method, path, handler } = route;
+    (router as any)[method.toLowerCase()](`${prefixApiV1}${path}`, handler);
   }
 };
