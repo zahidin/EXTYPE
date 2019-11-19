@@ -5,8 +5,7 @@
   "main": "dist/server.js",
   "scripts": {
     "start": "npx pm2 start pm2.yaml",
-    "dev": "tsc-watch --onSuccess \"node ./dist/server.js\"",
-    "build": "tsc -p"
+    "dev": "tsc-watch --onSuccess \"node ./dist/server.js\""
   },
   "keywords": [],
   "author": "zahidin",
