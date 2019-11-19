@@ -35,13 +35,4 @@ $ npm install
 $ npm run start
 ```
 
-# Run With PM2
-
-```sh
-# install dependencies
-$ npm install
-# run with pm2
-$ npm run start
-```
-
 Copyright © 2019 by Muhammad Zahidin Nur
