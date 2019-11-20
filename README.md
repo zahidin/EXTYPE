@@ -7,6 +7,7 @@ Rest api with express typescript ready for production
 - Database migration with sequelize ORM
 - Logging with morgan middleware express
 - Compression (compress response bodies for all request)
+- Unit Testing with jest
 - Pm2 configuration
 
 # Running Migrations
@@ -33,6 +34,13 @@ $ npm run dev
 $ npm install
 # run with pm2
 $ npm run start
+```
+
+# Run Unit Testing
+
+```sh
+# run testing with jest
+$ npm run testing
 ```
 
 Copyright © 2019 by Muhammad Zahidin Nur

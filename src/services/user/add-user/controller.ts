@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import UserModel from "../../models/user";
-import { hash } from "../../utils/encrypt-password";
+import UserModel from "../../../models/user";
+import { hash } from "../../../utils/encrypt-password";
 
 const addUser = async (req: Request, res: Response) => {
   try {

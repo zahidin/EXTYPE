@@ -1,8 +1,8 @@
-import addUserRoutes from "./add-user/routes";
-import getAllUserRoutes from "./get-all-user/routes";
-import getUserRoutes from "./get-user/routes";
-import updateUserRoutes from "./update-user/routes";
-import deleteUserRoutes from "./delete-user/routes";
+import addUserRoutes from "./user/add-user/routes";
+import getAllUserRoutes from "./user/get-all-user/routes";
+import getUserRoutes from "./user/get-user/routes";
+import updateUserRoutes from "./user/update-user/routes";
+import deleteUserRoutes from "./user/delete-user/routes";
 
 export default [
   ...addUserRoutes,
