@@ -1,5 +1,5 @@
 import request from "supertest";
-import router from "./utils/initialize-express";
+import router from "./initialize-express";
 import promiseRequest from "request-promise";
 
 jest.mock("request-promise");
