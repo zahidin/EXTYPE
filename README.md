@@ -2,7 +2,7 @@
 
 Rest api with express typescript ready for production
 
-# Feature
+## Feature
 
 - Database migration with sequelize ORM
 - Logging with morgan middleware express
@@ -10,7 +10,7 @@ Rest api with express typescript ready for production
 - Unit Testing with jest
 - Pm2 configuration
 
-# Running Migrations
+## Running Migrations
 
 Configuration of access to the database in src/config/config.json
 
@@ -18,7 +18,7 @@ Configuration of access to the database in src/config/config.json
 $ npx sequelize-cli db:migrate
 ```
 
-# Run For Devlopment
+## Run For Devlopment
 
 ```sh
 # install dependencies
@@ -27,7 +27,7 @@ $ npm install
 $ npm run dev
 ```
 
-# Run With PM2
+## Run With PM2
 
 ```sh
 # install dependencies
@@ -36,7 +36,7 @@ $ npm install
 $ npm run start
 ```
 
-# Run Unit Testing
+## Run Unit Testing
 
 ```sh
 # run testing with jest
